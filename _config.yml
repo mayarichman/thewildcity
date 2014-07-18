@@ -1,5 +1,5 @@
 server: true
-baseurl: /
+baseurl: 
 production_url : http://thewildcity.org/
 url: http://thewildcity.org/
 permalink: /:title
