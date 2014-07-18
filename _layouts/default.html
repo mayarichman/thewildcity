@@ -1,0 +1,35 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wild City Mapping {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <!-- <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' /> -->
+  <link href='{{site.baseurl}}site.css' rel='stylesheet' />
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}slick/slick.css"/>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/monokai.min.css">
+</head>
+<body>
+  <div class='container'>
+	  <div class='col12 pad4 center container' style='background: rgb(168, 120, 98);'>
+		  <h1 style='font-size:80px;'><a href='{{site.baseurl}}'>WILD CITY MAPPING</a></h1>
+	  </div>
+	  <div class='col12 pad2 center container' style='background: rgb(99, 168, 116);'>
+		  <ul>
+			  <li class='col4'><a href='{{site.baseurl}}/about'>ABOUT</a></li>
+			  <li class='col4'><a href='{{site.baseurl}}/how-to-add'>HOW-TO-ADD</a></li>
+			  <li class='col4'><a href='{{site.baseurl}}/the-map'>THE MAP</a></li>
+		  </ul>
+	  </div>
+	  <div class='container' style='background:white;'>
+			  {{content}}
+	</div>
+  </div>
+  <script src='{{site.baseurl}}/site.js'></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/slick/slick.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+server: true
+baseurl: /
+production_url : http://thewildcity.org/
+url: http://thewildcity.org/
+permalink: /:title
+markdown: kramdown
