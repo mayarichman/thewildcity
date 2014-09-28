@@ -15,6 +15,11 @@ html, body{
     display:block;
 }
 
+div#map.fullSection div.container img {
+    max-width:100%;
+    display:block;    
+}
+
 body {
 	
     font-family: 'Open Sans', sans-serif;
@@ -243,6 +248,10 @@ a:active, a:visited {
 
 .navbar-custom .navbar-brand {
 	padding:0;
+}
+
+.navbar-brand > img {
+    padding-top: 10px;
 }
 
 .navbar-custom  .navbar-toggle .icon-bar {
